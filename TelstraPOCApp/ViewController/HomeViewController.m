@@ -73,7 +73,7 @@
     NSString *description = listData.description.length > 0 ? listData.description : DESCRIPTION_NOT_FOUND;
     
     //Calculate height of the description text
-    CGSize descSize = CGSizeMake(SCREEN_WIDTH - DESCRIPTION_WIDTH,MAX_HEIGHT);
+    CGSize descSize = CGSizeMake(SCREEN_WIDTH - RIGHT_IMAGE_WIDTH,MAX_HEIGHT);
     UIFont *descFont = [UIFont fontWithName:DESCRIPTION_FONT_NAME size:DESCRIPTION_FONT_SIZE];
 
     
@@ -106,7 +106,7 @@
     cell.desc.text = description;
     
     //Calculate height of the text
-    CGSize descSize = CGSizeMake(SCREEN_WIDTH - 150,9999);
+    CGSize descSize = CGSizeMake(SCREEN_WIDTH - RIGHT_IMAGE_WIDTH,MAX_HEIGHT);
     UIFont *descFont = [UIFont fontWithName:DESCRIPTION_FONT_NAME size:DESCRIPTION_FONT_SIZE];
     
     CGRect expectedDescRect = [self rectForText:description                                usingFont:descFont

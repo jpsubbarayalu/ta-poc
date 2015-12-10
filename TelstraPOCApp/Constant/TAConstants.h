@@ -2,7 +2,7 @@
 //  ViewController.m
 //  TelstraPOCApp
 //
-//  Created by Cognizant on 12/10/15.
+//  Created by Jayaprakash on 12/10/15.
 //  Copyright (c) 2015 Cognizant. All rights reserved.
 //
 
